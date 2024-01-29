@@ -1,0 +1,176 @@
+/********************************************/
+/* フォームのガワ自身の表示エリアの位置決め */
+/********************************************/
+.article-description {
+  top: 100px;
+  left: 20px;
+  width: 1050px;
+  height: 800px;
+  margin: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.form-area {
+  top: 130px;
+  left: 40px;
+  width: 1050px;
+  height: 4000px;
+  margin: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.inquiries-form {
+  top: 10px;
+  left: 40px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.inquiries-fields {
+  margin: 5px 0px;
+  padding: 5px 0px;
+}
+
+/********************************************/
+/* フォームタイトルの体裁の設定             */
+/********************************************/
+.form-title {
+  margin: 0px 10px 0px 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+/********************************************/
+/* テーブルと列とカラムの体裁調整           */
+/********************************************/
+.inquiries-tbl {
+  width: 800px;
+}
+
+/* １行のテーブル */
+.one-row-table {
+  height: 50px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.head-td {
+  width: 5%;
+}
+.title-td {
+  width: 30%;
+}
+.colon-td {
+  width:5%
+
+}
+.tail-td {
+  width: 5%;
+}
+
+/* 2行テーブル */
+.two-row-table-1st {
+  height: 50px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.two-row-table-2nd {
+  height:40px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+/* タイトル行 */
+.two-row-table-1s {
+  margin: 0 0;
+  padding: 0 0;
+}
+.head-td-2nd-table {
+  width: 10%;
+}
+
+/* 多数行テーブル */
+.reply-row-many-row-table {
+  height: 50px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.reply-row-many-row-table {
+  height: 30px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+/********************************************/
+/* テーブル内の文字の体裁                   */
+/********************************************/
+/* 非表示文字 */
+
+.silent-word {
+  font-size: 1px;
+  opacity: 0.0;
+}
+
+/* タイトル行の文字の体裁 */
+.title-word {
+  font-size: 18px;
+  color: black;
+}
+
+/* タイトルに付随する注釈文字の体裁 */
+.empasis-phrase {
+  font-size: 12px;
+  vertical-align: text-top;
+  color: red;
+}
+
+/********************************************/
+/* 送信ボタンの体裁                         */
+/********************************************/
+.send-btn {
+  top: 10px;
+  width: 100px;
+  height: 10px;
+  margin: 10px 10px 0 10px;
+  padding: 20px 20px 0 40px;
+  padding-top: 30px;
+}
+
+/*** 上書き ***/
+/*** footer部の設定 ***/
+
+#wall-paper-footer-sideboard {
+  width: 1200px;
+  height: 155px;
+  margin: 22px 0 0 0;
+  background-color: darkblue;
+}
+
+footer .footer-block-sideboard {
+  z-index: 50;
+  width: auto;
+  height: 120px;
+  margin:  0 30px;
+  padding-top: 8px;/*
+  background-color: green;
+  opacity: 0.5;*/
+}
+
+footer .footer-block-box-sideboard {
+  z-index: 51;
+  top: 20px;
+  left: 1030px;
+  width: 200px;
+  height: 180px;/*
+  background-color: brown;
+  opacity: 0.8;*/
+}
+
+footer .footer-copyright-sideboard {
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  width: 1150px;
+  height: 35px;/*
+  background-color: pink;
+  opacity: 0.5;*/
+}
